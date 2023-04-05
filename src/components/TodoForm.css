@@ -1,0 +1,39 @@
+input {
+    height: 3rem;
+    width: 30rem;
+    border-radius: 0.5rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.inputForm {
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    font-size: 18px;
+}
+
+.AppLight input {
+    background-color: aliceblue;
+    color: hsl(235, 19%, 35%);
+}
+
+.AppDark input {
+    background-color: hsl(237, 14%, 26%);
+    color: aliceblue;
+}
+
+@media (max-width: 375px) {
+    input {
+        width: 17rem;
+    }
+    .inputForm {
+        top: 18%;
+    }
+
+}

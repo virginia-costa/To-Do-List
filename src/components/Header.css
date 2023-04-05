@@ -1,0 +1,33 @@
+.headerLight , .headerDark  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 4em;
+    height: 20rem;
+    background-repeat: no-repeat;
+}
+
+.button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.headerDark {
+    background-image: url(../assets/bg-desktop-dark.jpg);
+    color: hsl(234, 39%, 85%);
+}
+.headerLight {
+    background-image: url(../assets/bg-desktop-light.jpg);
+    color: hsl(0, 0%, 98%);
+}
+
+@media (max-width: 376px) {
+.headerDark {
+    background-image: url(../assets/bg-mobile-dark.jpg);
+}
+.headerLight {
+    background-image: url(../assets/bg-mobile-light.jpg);
+}
+}
