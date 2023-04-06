@@ -5,7 +5,7 @@
     z-index: 1;
     position: relative;
     margin-top: -4rem;
-    height: 20rem;
+    height: 18rem;
     width: 30rem;
     border-radius: 0.5rem;
     overflow-y: scroll;
@@ -31,6 +31,7 @@ li {
     list-style: none;
     font-size: 18px;
     padding: 0.5rem;
+    border: 1px solid rgb(163, 162, 162);
 }
 
 .listLight {
@@ -47,27 +48,9 @@ li {
     text-decoration: line-through;
 }
 
-.checkbox-round {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    vertical-align: middle;
-    border: 2px solid #ddd;
-    appearance: none;
-    -webkit-appearance: none;
-    outline: none;
-    cursor: pointer;
-}
-
 .gradient {
     background-image: linear-gradient(to bottom right, skyblue, rgb(83, 19, 112));
     border-radius: 50%;
-}
-
-.checkbox-round:checked {
-    background-image: url(../assets/icon-check.svg);
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 label {
@@ -88,8 +71,8 @@ label {
 
 @media (max-width: 375px) {
 .listDark, .listLight {
-    width: 17rem;
-    height: 22rem;
+    width: 15rem;
+    height: 17rem;
     margin-top: -8.5rem;
 }
 }

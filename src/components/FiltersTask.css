@@ -1,0 +1,43 @@
+.filtersLight, .filtersDark {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+  }
+  button {
+    border: none;
+    background: none;
+  }
+
+  .filtersDark {
+    background-color: hsl(237, 14%, 26%);
+    color: aliceblue;
+  }
+
+  .filtersLight {
+    background-color: aliceblue;
+    color: hsl(235, 19%, 35%);
+
+  }
+
+  .filtersDark  button {
+    color: aliceblue;
+  }
+
+  .filtersLight button {
+    color: hsl(235, 19%, 35%);
+  }
+
+  .counter {
+    padding-top: 0.4rem;
+  }
+  @media (max-width: 376px) {
+    .filtersDark, 
+ .filtersLight  {
+        width: 15rem;
+        height: 1.5rem;
+ }
+}
