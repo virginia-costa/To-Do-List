@@ -69,10 +69,10 @@ label {
     border: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
 .listDark, .listLight {
     width: 15rem;
-    height: 17rem;
+    height: 18rem;
     margin-top: -8.5rem;
 }
 }

@@ -34,7 +34,7 @@
   .counter {
     padding-top: 0.4rem;
   }
-  @media (max-width: 376px) {
+  @media (max-width: 500px) {
     .filtersDark, 
  .filtersLight  {
         width: 15rem;

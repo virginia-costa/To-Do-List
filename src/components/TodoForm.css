@@ -28,7 +28,7 @@ form {
     color: aliceblue;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
     input {
         width: 17rem;
     }

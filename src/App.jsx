@@ -56,7 +56,7 @@ function App() {
         />
       </main>
       <footer>
-        <p>Full Stack Developer Bootcamp</p>
+        <p>Challenge: FrontEndMentor</p>
         <p>Coded by Virginia Costa</p>
       </footer>
     </div>
